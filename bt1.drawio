@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="jwDwouXWCg0t9IBAsegZ">
+    <mxGraphModel dx="1318" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rzaGg60qyt21MgSLUQFC-14" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="nhan vien kho" vertex="1">
+          <mxGeometry height="60" width="30" x="120" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="rzaGg60qyt21MgSLUQFC-17" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="351.61000000000007" y="430" as="sourcePoint" />
+            <mxPoint x="351.67" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rzaGg60qyt21MgSLUQFC-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" value="WarehouseUI" vertex="1">
+          <mxGeometry height="30" width="101.88" x="297" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="rzaGg60qyt21MgSLUQFC-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" value="IventoryManager" vertex="1">
+          <mxGeometry height="30" width="101.88" x="552" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="rzaGg60qyt21MgSLUQFC-18" edge="1" parent="1" source="rzaGg60qyt21MgSLUQFC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="540" as="sourcePoint" />
+            <mxPoint x="603" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rzaGg60qyt21MgSLUQFC-19" edge="1" parent="1" source="rzaGg60qyt21MgSLUQFC-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="135" y="670" />
+            </Array>
+            <mxPoint x="134.5" y="480" as="sourcePoint" />
+            <mxPoint x="134.5" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rzaGg60qyt21MgSLUQFC-23" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="282" width="10" x="347" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="rzaGg60qyt21MgSLUQFC-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;startFill=0;" target="rzaGg60qyt21MgSLUQFC-23" value="quet ma kien hang">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="134" y="495" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rzaGg60qyt21MgSLUQFC-25" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="597.94" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="rzaGg60qyt21MgSLUQFC-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="rzaGg60qyt21MgSLUQFC-25" value="export_package()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="585" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rzaGg60qyt21MgSLUQFC-27" edge="1" parent="1" source="rzaGg60qyt21MgSLUQFC-25" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;endFill=1;" target="rzaGg60qyt21MgSLUQFC-23" value="ket qua xuat kho">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="655" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rzaGg60qyt21MgSLUQFC-28" edge="1" parent="1" source="rzaGg60qyt21MgSLUQFC-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;innerLoopWaypoints=1;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" target="rzaGg60qyt21MgSLUQFC-25" value="kiem tra luu lai kho">
+          <mxGeometry relative="1" x="-0.4667" y="43" as="geometry">
+            <mxPoint x="-3" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LvrpYcQB_yon7L6U5gvG-2" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;p dir=&quot;auto&quot; class=&quot;PDq2pG_selectionAnchorContainer&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;strong&gt;Lỗi 1: &lt;code&gt;Kiểm tra hạn lưu kho&lt;/code&gt; gửi sang &lt;code&gt;ExpiryChecker&lt;/code&gt; là sai.&lt;/strong&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;PDq2pG_selectionAnchor&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;br&gt;&lt;ul&gt;&lt;br&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;Trong đề bài, &lt;code&gt;InventoryManager&lt;/code&gt; &lt;strong&gt;tự kiểm tra hạn lưu kho trên chính nó&lt;/strong&gt;.&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;br&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;Vì vậy đây phải là &lt;strong&gt;Self Message&lt;/strong&gt;.&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;br&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;Không được gửi thông điệp từ &lt;code&gt;InventoryManager&lt;/code&gt; sang &lt;code&gt;ExpiryChecker&lt;/code&gt;.&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;br&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;Thực tế sơ đồ giả đã tạo thêm đối tượng &lt;code&gt;ExpiryChecker&lt;/code&gt;, nhưng đối tượng này &lt;strong&gt;không thuộc luồng nghiệp vụ được yêu cầu&lt;/strong&gt;.&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;p dir=&quot;auto&quot;&gt;&lt;font size=&quot;3&quot;&gt;→ Sửa thành:&lt;/font&gt;&lt;/p&gt;&lt;br&gt;&lt;p dir=&quot;auto&quot;&gt;&lt;code&gt;&lt;font size=&quot;3&quot;&gt;InventoryManager → InventoryManager : Kiểm tra hạn lưu kho() [Self]&lt;/font&gt;&lt;/code&gt;&lt;/p&gt;&lt;br&gt;&lt;hr&gt;&lt;br&gt;&lt;p dir=&quot;auto&quot;&gt;&lt;strong&gt;&lt;font size=&quot;3&quot;&gt;Lỗi 2: &lt;code&gt;Kết quả xuất kho&lt;/code&gt; đang dùng kiểu thông điệp không đúng.&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;ul&gt;&lt;br&gt;&lt;li&gt;&lt;br&gt;&lt;font size=&quot;3&quot;&gt;&lt;code&gt;WarehouseUI&lt;/code&gt; gửi &lt;code&gt;export_package()&lt;/code&gt; và &lt;strong&gt;chờ kết quả&lt;/strong&gt; → đây là &lt;strong&gt;Sync&lt;/strong&gt;.&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;br&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;Sau khi &lt;code&gt;InventoryManager&lt;/code&gt; xử lý xong, kết quả quay về &lt;code&gt;WarehouseUI&lt;/code&gt; phải là &lt;strong&gt;Return&lt;/strong&gt;.&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;br&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;Return nên được biểu diễn bằng &lt;strong&gt;đường nét đứt + mũi tên mở&lt;/strong&gt;, không dùng lại Sync.&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;p dir=&quot;auto&quot;&gt;&lt;font size=&quot;3&quot;&gt;→ Sửa thành:&lt;/font&gt;&lt;/p&gt;&lt;br&gt;&lt;p dir=&quot;auto&quot;&gt;&lt;code&gt;&lt;font size=&quot;3&quot;&gt;InventoryManager -- -- &amp;gt; WarehouseUI : Kết quả xuất kho [Return]&lt;/font&gt;&lt;/code&gt;&lt;/p&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="120" width="180" x="280" y="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
